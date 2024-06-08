@@ -52,3 +52,12 @@ switch (permissoes) {
   default:
     console.log("Não sei quem você é no sistema.");
 }
+
+// * Operador Ternário - uma forma simplificada de se fazer um if/else. Muito útil para retornar um valor a ser atribuído a uma variável.
+const exemploIdade = 21;
+
+// exemploIdade >= 18 ? console.log("Maior de idade") : console.log("Menor de idade");
+
+const mensagem = exemploIdade >= 18 ? "Maior de idade" : "Menor de idade";
+
+console.log(mensagem);
